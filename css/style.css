@@ -1,0 +1,1069 @@
+html
+*{
+    box-sizing:border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin:0;
+    padding:0;
+}
+body{
+    width:100%;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    overflow-x:hidden;
+}
+
+
+nav{
+    height:60px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background-color:#F3F8FF;
+}
+.skrill-logo{
+    width:20%;
+    
+    padding-left:2rem;
+}
+
+.skrill-logo:hover{
+    cursor:pointer;
+    
+}
+
+nav a{
+    text-decoration:none;
+    font-weight:bold;
+    color:#030637;
+}
+
+nav a:hover{
+    cursor:pointer;
+
+}
+
+.nav-items{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    font-size:1em;
+}
+
+.help-item{
+    padding-right:60px;
+    
+}
+
+.register-item{
+    padding-right:60px;
+
+    
+}
+
+.aboutus-item{
+    padding-right:60px;
+    
+}
+
+.skrill-background{
+    width:90%;
+    padding-left:2rem;
+    
+}
+
+.skrill-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+h1{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    color:whitesmoke;
+    font-size:4em;
+    position:absolute; left:7rem; top:10rem;
+
+}
+
+.column-left p{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    color:whitesmoke;
+    font-size:20px;
+    position:relative; bottom:15rem; left:7rem;
+
+    
+}
+
+.button-1{
+    font-weight:bold;
+    color:#200E3A;
+    border-color:#52D3D8;
+    background-color:#52D3D8;
+    border-style:solid;
+    border-radius:10px;
+    border-width:1px;
+    font-size:20px;
+    position:relative; bottom:10rem; left:7rem;
+    padding:0.5rem 2.5rem;
+}
+
+.button-1:hover{
+    cursor:pointer;
+    background-color:#9BB8CD;
+    border-color:#9BB8CD;
+}
+
+.button-2{
+    color:#222831;
+    font-weight:bold;
+    border-color:transparent;
+    background-color:whitesmoke;
+    border-style:solid;
+    border-radius:10px;
+    borded-width:1px;
+    font-size:20px;
+    position:relative; bottom:10rem; left:9rem;
+    padding:0.5rem 2.5rem;
+}
+
+.button-2:hover{
+    cursor:pointer;
+    background-color:azure;
+    border-color:azure;
+}
+
+.column-right h2{
+    color:#430A5D;
+    font-weight:bold;
+    font-size:3rem;
+    padding-bottom:4rem;
+    padding-left:1.5em;
+    text-align:justify;
+}
+
+
+.knect-image{
+    width:4%;
+}
+
+.shopping-image{
+    width:4%;
+    
+    
+}
+
+.envelop-image{
+    display:inline;
+    justify-content:center;
+    align-items:center;
+    width:2.7%;
+}
+
+.image-wrap{
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.text-wrapper{
+    display:flex;
+    justify-content:space-evenly;
+    font-size:20px;
+    font-weight:bold;
+    padding-left:2.8rem;
+    padding-top:1rem;
+}
+
+.word-wrapper{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    padding-top:3rem;
+    margin-bottom:3rem;
+    font-size:16px;
+    padding-left:2rem;
+}
+
+.learn-wrapper{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    margin-bottom:3rem;
+    font-weight:bold;
+    color:black;
+}
+
+.learn-more{
+    color:#910A67;
+}
+
+.meta-more{
+    color:#910A67;
+}
+
+.beta-more{
+    color:#910A67;
+}
+
+.alpha-more{
+    color:#910A67;
+}
+
+.learn-more:hover{
+    text-decoration-line:underline;
+    text-decoration-thickness:2px;
+    
+}
+
+.meta-more:hover{
+    text-decoration-line:underline;
+    text-decoration-thickness:2px;
+    
+}
+
+.beta-more:hover{
+    text-decoration-line:underline;
+    text-decoration-thickness:2px;
+    
+}
+
+.alpha-more:hover{
+    text-decoration-line:underline;
+    text-decoration-thickness:2px;
+    
+}
+
+.box{
+    display:grid;
+    justify-content:center;
+    align-items:center;
+    width: 950px;
+  height: 450px;
+  border-width:1px;
+  border-style:solid;
+  margin-bottom:10rem;
+  padding-left:2rem;
+  margin-left:2rem;
+  background-color:#F8EDFF;
+  border-color:#F8EDFF;
+}
+
+.box h2{
+    color:#430A5D;
+    font-size:3rem;
+    font-weight:bold;
+    padding-top:5rem;
+    padding-left:6rem;
+    text-wrap:wrap;
+}
+
+.box p{
+    padding-bottom:0rem;
+    padding-left:6rem;
+    font-size:18px;
+}
+
+.box p1{
+    padding-bottom:3rem;
+    padding-left:6rem;
+    font-size:18px;
+}
+
+.box a{
+    display:inline-block;
+    border-style:solid;
+    border-radius:10px;
+    padding:0.5rem 1.5rem;
+    text-decoration:none;
+    margin:0 auto;
+    color:#430A5D;
+    font-weight:bold;
+    background-color:#F8EDFF;
+    border-width:2px;
+    margin-bottom:3rem;
+    margin-left:6rem;
+    
+    
+}
+
+.box a:hover{
+    background-color:white;
+}
+
+
+.skrill4-container{
+    display:flex;
+    justify-content:flex-end;
+    align-items:flex-end;
+}
+.skrillapp-image{
+    width:60%;
+    position:relative; left:28rem; bottom:16rem;
+    z-index:1;
+    
+}
+
+.skrill5-container{
+    display:inline-block;
+    border-style:solid;
+    border-radius:0px;
+    border-width:0px;
+    text-decoration:none;
+    background-color:#910A67;
+    position:relative; bottom:7rem;
+    font-weight:bold;
+    margin-bottom:5rem;
+    margin-left:2.5rem;
+    width:950px;
+    height:500px;
+    padding-top:3rem;
+}
+
+.box3 h2{
+    font-size:3rem;
+    font-weight:bold;
+    padding-top:5rem;
+    padding-left:6rem;
+    text-wrap:wrap;
+    color:white;
+}
+
+.box3 p{
+    padding-top:1.5rem;
+    padding-left:6rem;
+    font-size:18px;
+    color:white;
+}
+
+.playstore-button{
+    width:20%;
+    padding-left:2rem;
+    margin-left:4rem;
+}
+
+.appstore-button{
+    width:20%;
+    padding-left:2rem;
+    margin-right:1rem;
+}
+
+.appstore-button:hover{
+    cursor:pointer;
+}
+
+.playstore-button:hover{
+    cursor:pointer;
+}
+
+.sidewalk-image{
+    margin-left:40rem;
+    position:relative; bottom:17rem;
+    width:50%;
+    height:60%;
+}
+
+.box-4{
+    display:grid;
+    justify-content:center;
+    align-items:center;
+    width: 1275px;
+  height: 500px;
+  border-width:1px;
+  border-style:solid;
+  margin-bottom:10rem;
+  padding-left:2rem;
+  margin-left:2rem;
+  background-color:#F8EDFF;
+  border-color:#F8EDFF;
+}
+
+.knect-file{
+    width:60%;
+    height:92.15%;
+    margin-left:25rem;
+    position:relative; bottom:31.51rem; left:7rem;
+}
+
+.knect-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.box-4 h2{
+    font-size:3rem;
+    font-weight:bold;
+    padding-top:5rem;
+
+    text-wrap:wrap;
+    color:#430A5D;
+}
+
+.box-4 p{
+    padding-bottom:1.5rem;
+    padding-top:2rem;
+    padding-left:0rem;
+    font-size:18px;
+}
+
+.box-4 p2{
+    padding-bottom:0rem;
+    padding-top:0rem;
+    padding-left:0rem;
+    font-size:18px;
+}
+
+.box-4 a{
+    text-decoration:0;
+    display:inline-block;
+    border-style:solid;
+    border-radius:10px;
+    padding:0.5rem 3rem;
+    margin:0 auto;
+    color:#430A5D;
+    font-weight:bold;
+    background-color:#F8EDFF;
+    border-width:2px;
+    margin-bottom:2rem;
+    margin-top:1.5rem;
+    margin-left:0rem;
+}
+
+.box-4 a:hover{
+    background-color:white;
+}
+
+li{
+    display:inline-block;
+    align-items:center;
+    font-size: 16px;
+    white-space: unset;
+    font-weight:bold;
+    margin-bottom:0rem;
+    padding-top:3rem;
+    line-height:1px;
+    margin-left:3rem;
+}
+
+li a{
+     color:black;
+     text-decoration:none;
+}
+
+li a:hover{
+    border-width:0px;
+    border-bottom-width:2px;
+    border-style:solid;
+}
+
+#footer{
+    border:solid;
+    border-width:0px;
+    border-top-width:3px;
+    margin-left:5rem;
+    margin-right:5rem;
+    color:#430A5D;
+}
+
+.playstore-image2{
+    width:12%;
+    margin-left:2em;
+}
+
+.appstore-image2{
+    width:12%;
+    margin-left:1em;
+    margin-right:2em;
+}
+
+.playstore-image2:hover{
+    cursor:pointer;
+}
+
+.appstore-image2{
+    cursor:pointer;
+}
+
+.poweredby-paysafe{
+    width:17%;
+    margin-bottom:4rem;
+    margin-left:38rem;
+}
+
+.facebook-image{
+    width:3.3%;
+    margin-left:68rem;
+    padding-bottom:5rem;
+    
+}
+
+.instagram-image{
+    padding-bottom:5rem;
+    width:3%;
+}
+
+.facebook-image:hover{
+    cursor:pointer;
+    
+}
+
+.instagram-image:hover{
+    cursor:pointer;
+}
+
+.footer-navigation p3{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:12px
+}
+
+p3{
+    margin-bottom:2rem;
+}
+
+@media only screen and (max-width: 600px){
+
+    
+*{
+ box-sizing:border-box;
+}
+
+body{
+    width:100%;
+    height:100%;
+    margin:0rem;
+    margin-right:0.5rem;
+    overflow-x:hidden;
+}
+ 
+ body{
+    background-color:#833f74;
+ }
+    
+    
+    .skrill-background{
+        width:0rem;
+        
+    }
+
+    nav{
+        height:20rem;
+        width:125rem;
+        display:flex;
+        justify-content:space-around;
+        align-items:center;
+        background-color:#F3F8FF;
+    }
+     
+    .nav-items{
+        text-align:center;
+        word-break:keep-all;
+        display:flex;
+        justify-content:flex-end;
+        align-items:center;
+        font-size:4.5rem;
+        margin-right:35rem;
+    }
+    
+    .skrill-logo{
+        width:80%;
+        
+        padding-left:2rem;
+    }
+
+h1{
+    display:flex;
+    justify-content:center;
+    text-align:center;
+        margin-top:15rem;
+        color:white;
+        font-size: calc(10rem + 10vw);
+        font-weight:bolder;
+        line-height:1em;
+        text-wrap:nowrap;
+        
+    
+    }
+
+    .skrill-container{
+        display:inline;
+        justify-content:center;
+        align-items:center;
+       
+    }
+    .column-left p{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        margin-top:50rem;
+        margin-left:44rem;
+        color:whitesmoke;
+        font-size:4rem;
+        text-wrap:nowrap;
+        
+    
+        
+    }
+    
+    .button-1{
+        font-weight:bold;
+        color:#368083;
+        border-color:#52D3D8;
+        background-color:#52D3D8;
+        border-style:solid;
+        border-radius:0.2em;
+        margin-left: 18rem;
+        border-width:0.1em;
+        font-size:12rem;
+        text-wrap:nowrap;
+        padding:0.5rem 2.5rem;
+    }
+    
+    .button-1:hover{
+        cursor:pointer;
+        background-color:#9BB8CD;
+        border-color:#9BB8CD;
+    }
+    
+    .button-2{
+        color:white;
+        font-weight:bold;
+        border-color:white;;
+        background-color:transparent;
+        border-style:solid;
+        border-radius:0.3em;
+        border-width:0.1em;
+        font-size:8rem;
+        margin-top:5rem;
+        padding:4rem 2rem;
+        margin-left:15rem;
+        text-wrap:nowrap;
+    }
+
+    .aboutus-item{
+        padding-right:1em;
+        word-break:keep-all;
+        font-size:4.5rem;
+        text-wrap:nowrap;
+    }
+  
+    .column-right h2{
+        color:#430A5D;
+        font-weight:bold;
+        font-size:0rem;
+        padding-bottom:4rem;
+        padding-left:1.5em;
+        text-align:justify;
+    }
+    
+    
+    .knect-image{
+        width:0%
+    }
+    
+    .shopping-image{
+        
+        width:0%;
+    }
+    
+    .envelop-image{
+        display:inline;
+        justify-content:center;
+        align-items:center;
+        width:0%;
+    }
+    
+    .image-wrap{
+        display:flex;
+        justify-content:space-evenly;
+    }
+    
+    .text-wrapper{
+        display:flex;
+        justify-content:space-evenly;
+        font-size:0px;
+        font-weight:bold;
+        padding-left:2.8rem;
+        padding-top:1rem;
+    }
+    
+    .word-wrapper{
+        display:flex;
+        justify-content:space-evenly;
+        align-items:center;
+        padding-top:3rem;
+        margin-bottom:3rem;
+        font-size:0px;
+        padding-left:2rem;
+    }
+    
+    .learn-wrapper{
+        display:flex;
+        justify-content:space-evenly;
+        align-items:center;
+        margin-bottom:3rem;
+        font-weight:bold;
+        color:black;
+    }
+    
+    .learn-more{
+        color:#910A67;
+    }
+    
+    .meta-more{
+        color:#910A67;
+    }
+    
+    .beta-more{
+        color:#910A67;
+    }
+    
+    .alpha-more{
+        color:#910A67;
+    }
+    
+    .learn-more:hover{
+        text-decoration-line:underline;
+        text-decoration-thickness:0px;
+        size:0px;
+        
+        
+    }
+    
+    .meta-more:hover{
+        text-decoration-line:underline;
+        text-decoration-thickness:0px;
+        size:0px;
+        
+    }
+    
+    .beta-more:hover{
+        text-decoration-line:underline;
+        text-decoration-thickness:0px;
+        size:0px;
+        
+        
+    }
+    
+    .alpha-more:hover{
+        text-decoration-line:underline;
+        text-decoration-thickness:0px;
+        size:0px;
+        
+    }
+
+    .send-image{
+        width:0%;
+    }
+    
+    .column-right a{
+        font-size:0px;
+    }
+
+    .box{
+        display:grid;
+        justify-content:center;
+        align-items:center;
+        width: 100rem;
+      height: 130rem;
+
+      border-width:1px;
+      border-style:solid;
+      background-color:#efeaf1;
+      border-color:#F8EDFF;
+      
+}
+
+.box h2{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    color:#430A5D;
+    font-size:6.5rem;
+    font-weight:bold;
+    text-wrap:nowrap;
+    padding-right:2rem;
+    margin-right:10rem;
+}
+
+.box p{
+    padding-bottom:0rem;
+    padding-left:1rem;
+    font-size:5rem;
+    text-wrap:wrap;
+    font-weight:normal;
+}
+
+.box p1{
+    padding-bottom:0rem;
+    padding-left:1rem;
+    font-size:5rem;
+    text-wrap:wrap;
+    font-weight:normal;
+}
+
+.box a{
+    font-size:5rem;
+    display:inline-block;
+    border-style:solid;
+    border-radius:0.5em;
+    padding:2rem 4rem;
+    text-decoration:none;
+    margin:0 auto;
+    color:#ac4484;
+    font-weight:bold;
+    background-color:#efeaf1;
+    border-width:0.2em;
+    margin-bottom:3rem;
+    margin-left:5rem;
+    text-wrap:nowrap;
+    
+    
+}
+
+.sidewalk-image{
+    
+    
+    width:0;
+    height:0;
+}
+
+.skrillapp-image{
+    width:0;
+    
+    z-index:1;
+    
+}
+
+.skrill3-container{
+    margin-right:4rem;
+}
+
+.skrill5-container{
+    display:flex;
+    border-style:solid;
+    border-radius:0px;
+    border-width:0px;
+    text-decoration:none;
+    background-color:#5272F2;
+    font-weight:bold;
+    margin-left:1.9rem;
+    width:100.5rem;
+    height:70rem;
+    padding-top:3rem;
+}
+
+.box3 h2{
+    font-size:9rem;
+    font-weight:bold;
+    padding-top:5rem;
+    padding-left:6rem;
+    text-wrap:wrap;
+    color:white;
+}
+
+.box3 p{
+    padding-top:1.5rem;
+    padding-left:5rem;
+    font-size:4rem;
+    color:white;
+}
+
+.playstore-button{
+    width:40%;
+    padding-left:2rem;
+    margin-left:4rem;
+}
+
+.appstore-button{
+    width:40%;
+    padding-left:2rem;
+    margin-right:1rem;
+}
+
+
+.knect-file{
+    width:60%;
+    height:92.15%;
+    margin-left:25rem;
+    position:relative; bottom:31.51rem; left:7rem;
+}
+
+.knect-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
+.box-4 p{
+    padding-bottom:1rem;
+    padding-top:2rem;
+    padding-left:1rem;
+    font-size:4rem;
+    text-wrap:wrap;
+}
+
+.box-4 p2{
+    padding-bottom:1rem;
+    padding-top:2rem;
+    padding-left:1rem;
+    font-size:4rem;
+    text-wrap:wrap;
+}
+
+.box-4{
+    display:inline-block;
+    justify-content:center;
+    align-items:center;
+    width: 135rem;
+  height: 80rem;
+  border-width:1px;
+  border-style:solid;
+
+  
+
+  background-color:#F8EDFF;
+  border-color:#F8EDFF;
+}
+
+.knect-file{
+    width:0%;
+    height:0%;
+    
+}
+
+.knect-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:102rem;
+}
+
+.box-4 h2{
+    font-size:8.5rem;
+    font-weight:bold;
+    padding-top:5rem;
+    padding-left:2rem;
+    text-wrap:wrap;
+    color:#430A5D;
+}
+
+
+
+.box-4 a{
+    text-decoration:0;
+    display:inline-block;
+    border-style:solid;
+    border-radius:0.5em;
+    padding:1rem 3rem;
+    font-size:5rem;
+    color:#430A5D;
+    font-weight:bold;
+    background-color:#F8EDFF;
+    border-width:0.2em;
+    margin-top:3rem;
+    margin-left:4rem;
+    margin-bottom:1rem;
+}
+
+li{
+    box-sizing:border-box;
+    display:inline-block;
+    align-items:center;
+    font-size: 4rem;
+    font-weight:bold;
+    margin-bottom:0rem;
+    padding-top:2rem;
+    line-height:4rem;
+    margin-left:3rem;
+}
+
+li a{
+     color:rgb(247, 247, 247);
+     text-decoration:none;
+}
+
+li a:hover{
+    border-width:0px;
+    border-bottom-width:2px;
+    border-style:solid;
+}
+
+#footer{
+    border:solid;
+    border-width:0;
+    border-radius:0.3em;
+    border-top-width:1rem;
+    padding-left:2rem;
+    width:320%;
+    margin-left:4rem;
+    color:#430A5D;
+}
+
+.playstore-image2{
+    width:40%;
+    margin-left:2em;
+}
+
+.appstore-image2{
+    width:40%;
+    margin-left:1em;
+    margin-right:2em;
+}
+
+.playstore-image2:hover{
+    cursor:pointer;
+}
+
+.appstore-image2{
+    cursor:pointer;
+}
+
+.poweredby-paysafe{
+    width:50%;
+    margin-bottom:4rem;
+    margin-left:3rem;
+}
+
+.facebook-image{
+    width:10%;
+    margin-left:68rem;
+    padding-bottom:5rem;
+    
+}
+
+.instagram-image{
+    padding-bottom:5.2rem;
+    width:9.4%;
+}
+
+.facebook-image:hover{
+    cursor:pointer;
+    
+}
+
+.instagram-image:hover{
+    cursor:pointer;
+}
+
+.footer-navigation p3{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:2.5rem;
+    color:#efeaf1;
+}
+
+p3{
+    margin-bottom:2rem;
+}
+}
+
